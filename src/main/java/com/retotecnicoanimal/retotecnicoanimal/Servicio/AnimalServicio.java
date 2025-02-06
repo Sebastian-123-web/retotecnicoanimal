@@ -18,10 +18,11 @@ public class AnimalServicio {
 
     public void mostrarAnimalesPorTipo(Map<AnimalTipo, List<Animal>> animalesPorTipo){
         animalesPorTipo.forEach((tipo,animal)->{
-            System.out.println(tipo);
-            System.out.println("----------------");
+            System.out.println("+-----------------");
+            System.out.println("|  " + tipo);
+            System.out.println("+----------------");
             animal.forEach(a -> {
-                System.out.println(a.getName() + " | " + a.getOnomatopeya());
+                System.out.println("* " + a.getName() + " | " + a.getOnomatopeya());
             });
         });
     }

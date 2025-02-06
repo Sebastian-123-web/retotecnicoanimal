@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="retotecnicoanimal:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/retotecnicoanimal_jar</output-path>
+    <root id="archive" name="retotecnicoanimal.jar">
+      <element id="module-output" name="retotecnicoanimal" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.3.25/spring-aop-5.3.25.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/springframework/spring-jcl/5.3.25/spring-jcl-5.3.25.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/springframework/spring-expression/5.3.25/spring-expression-5.3.25.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.3.25/spring-beans-5.3.25.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/springframework/spring-context/5.3.25/spring-context-5.3.25.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/springframework/spring-core/5.3.25/spring-core-5.3.25.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
