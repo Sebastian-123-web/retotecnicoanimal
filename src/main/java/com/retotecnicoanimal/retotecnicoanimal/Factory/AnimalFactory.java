@@ -8,7 +8,7 @@ import com.retotecnicoanimal.retotecnicoanimal.Models.Volador;
 public class AnimalFactory {
 
     public Animal crearAnimal(String nombre, String tipo, String onomatopeya){
-        switch (tipo) {
+        switch (tipo.toUpperCase()) {
             case "TERRESTRE":
                 return new Terrestre(nombre, onomatopeya);
             case "VOLADOR":
