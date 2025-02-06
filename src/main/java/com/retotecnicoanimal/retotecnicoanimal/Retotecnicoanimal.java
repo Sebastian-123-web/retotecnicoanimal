@@ -1,7 +1,6 @@
 package com.retotecnicoanimal.retotecnicoanimal;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
 
@@ -11,7 +10,6 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 import com.retotecnicoanimal.retotecnicoanimal.Enum.AnimalTipo;
 import com.retotecnicoanimal.retotecnicoanimal.Factory.AnimalFactory;
 import com.retotecnicoanimal.retotecnicoanimal.Models.Animal;
-// import com.retotecnicoanimal.retotecnicoanimal.Models.Terrestre;
 import com.retotecnicoanimal.retotecnicoanimal.Servicio.AnimalServicio;
 import com.retotecnicoanimal.retotecnicoanimal.config.AppConfig;
 

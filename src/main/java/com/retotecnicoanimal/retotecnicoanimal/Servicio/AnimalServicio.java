@@ -18,6 +18,7 @@ public class AnimalServicio {
 
     public void mostrarAnimalesPorTipo(Map<AnimalTipo, List<Animal>> animalesPorTipo){
         animalesPorTipo.forEach((tipo,animal)->{
+            System.out.println(" ");
             System.out.println("+-----------------");
             System.out.println("|  " + tipo);
             System.out.println("+----------------");
